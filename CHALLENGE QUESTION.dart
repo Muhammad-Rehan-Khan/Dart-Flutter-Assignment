@@ -4,7 +4,7 @@
 import 'dart:io';
 
 void main() {
-  print("Welcome to the program to find Prime Number");
+  print("find Prime Number");
   print("Please Enter a Positive Integer");
   String pi = stdin.readLineSync() as String;
   int positiveInteger = int.parse(pi);
