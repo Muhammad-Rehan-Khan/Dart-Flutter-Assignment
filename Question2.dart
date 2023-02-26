@@ -3,9 +3,9 @@
 import 'dart:io';
 
 void main() {
-  print("\n=====================================");
+ 
+  
   print("To Find Average of 2 Floating Numbers");
-  print("=====================================\n");
   print("Enter 1st Float Number");
   String num1 = stdin.readLineSync() as String;
   double firstNum = double.parse(num1);
