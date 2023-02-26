@@ -4,13 +4,13 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
-  print("Welcome to Calculation of base & exponent");
+  print("Calculation of base and exponent");
   print("Enter the Base");
   String b = stdin.readLineSync() as String;
   int base = int.parse(b);
   print("Enter the Exponent");
   String e = stdin.readLineSync() as String;
   int exponent = int.parse(e);
-  int cal = pow(base, exponent) as int;
+  int cal = pow (base, exponent) as int;
   print(cal);
 }
