@@ -8,5 +8,5 @@ void main() {
   String c = stdin.readLineSync() as String;
   int celsius = int.parse(c);
   double F = (9 / 5) * celsius + 32;
-  print("The Temprature in Fehrenheit = $F\u2109");
+  print("The Temprature in Fehrenheit = $F");
 }
