@@ -3,7 +3,7 @@
 import 'dart:io';
 
 void main() {
-  print("Hello Welcome To Conversion of Celcius to Fehrenheit");
+  print("Conversion of Celcius to Fehrenheit");
   print("Enter The Temprature in Celsius");
   String c = stdin.readLineSync() as String;
   int celsius = int.parse(c);
