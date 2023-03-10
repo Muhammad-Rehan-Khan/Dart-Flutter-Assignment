@@ -5,7 +5,7 @@ void main(List<String> args) {
 
   double appleprice = 8.9;
   double bananaprice = 5.9;
-  double carrotprice = 5.9;
+  double carrotprice = 2.9;
 
   print("Enter apple quantity");
   int appleQuantity = int.parse(stdin.readLineSync()!);
